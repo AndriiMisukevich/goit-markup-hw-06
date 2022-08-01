@@ -1,0 +1,465 @@
+/* Герой */
+.hero-section {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: center;
+    max-width: 1600px;
+    margin: 0 auto;
+
+    background-image: linear-gradient(to right,
+            rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)),
+        url(../images/hero-background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero-title {
+    margin-top: 0;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 696px;
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    color: var(--hero-title-color);
+}
+
+.hero-button {
+    padding: 10px 32px;
+    border-radius: 4px;
+}
+
+/* Наши преимущества */
+.advantages-section {
+    padding-top: 94px;
+}
+
+.advantages-list {
+    display: flex;
+    padding-left: 0;
+
+    /* outline: 1px solid blueviolet; */
+}
+
+.advantages-item {
+    flex-basis: calc(100% / 4);
+    margin-right: 30px;
+
+    /* outline: 1px solid blueviolet; */
+}
+
+.advantages-item:last-child {
+    margin-right: 0;
+
+    /* outline: 1px solid blueviolet; */
+}
+
+.advantages-icon-container {
+    display: inline-flex;
+    width: 270px;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    border-radius: 4px;
+
+    background-color: var(--background-icon);
+}
+
+.advantage-title {
+    margin-bottom: 10px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.advantage-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+
+    color: var(--secondary-text-color);
+}
+
+/* Чем мы занимаемся */
+.projects-section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.work-list {
+    display: flex;
+    padding-left: 0;
+}
+
+.work-list-item {
+    position: relative;
+
+    flex-basis: calc(100% / 3);
+    margin-right: 30px;
+}
+
+.work-list-item:last-child {
+    margin-right: 0;
+}
+
+.work-item-description {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    width: 100%;
+    padding: 27px 10px;
+    text-align: center;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--work-list-color);
+    background-color: var(--work-list-background);
+}
+
+/* Наша команда */
+.team-section {
+    background-color: var(--background-team);
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.team-list {
+    display: flex;
+    padding-left: 0;
+}
+
+.team-list-card {
+    flex-basis: calc(100% / 4);
+    margin-right: 30px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
+
+    background-color: var(--background-card-team);
+}
+
+.team-list-card:last-child {
+    margin-right: 0;
+}
+
+.person-description {
+    padding: 30px 10px;
+}
+
+.card-title {
+    margin-bottom: 10px;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.position {
+    margin-bottom: 16px;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--secondary-text-color);
+}
+
+.team-icons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-icons-item {
+    margin-right: 10px;
+}
+
+.team-icons-item:last-child {
+    margin-right: 0;
+}
+
+.team-social-link {
+    display: inline-flex;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+
+    color: var(--color-icon);
+
+    transition: background-color 250ms var(--transition-timing-function),
+        color 250ms var(--transition-timing-function);
+}
+
+.team-social-link:hover,
+.team-social-link:focus {
+    background-color: var(--hover-color);
+    color: var(--hover-icon);
+}
+
+.team-social-icon {
+    fill: currentColor;
+}
+
+/* Постоянные клиенты */
+.regular-customers-section {
+    padding: 94px 0;
+}
+
+.customers-list {
+    display: flex;
+}
+
+.customers-item {
+    margin-right: 30px;
+}
+
+.customers-item:last-child {
+    margin-right: 0;
+}
+
+.customers-link {
+    display: inline-flex;
+    width: 170px;
+    height: 90px;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+
+    color: var(--color-icon);
+
+    transition: color 250ms var(--transition-timing-function),
+        border-color 250ms var(--transition-timing-function);
+}
+
+.customers-link:hover,
+.customers-link:focus {
+    color: var(--hover-color);
+    border-color: var(--hover-color);
+}
+
+.customers-icon {
+    fill: currentColor;
+}
+
+/* Modal */
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* z-index: 1000; */
+
+    width: 100%;
+    height: 100%;
+
+    background-color: var(--backdrop-background);
+    opacity: 1;
+    transition: opacity 250ms var(--transition-timing-function),
+        visibility 250ms var(--transition-timing-function);
+}
+
+.backdrop.is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.backdrop.is-hidden .modal {
+    transform: translate(-50%, -50%) scale(1.1);
+}
+
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    max-width: 528px;
+    width: 100%;
+    height: 581px;
+    max-height: 100vh;
+    padding: 40px;
+    border-radius: 4px;
+
+    background-color: var(--modal-background);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
+
+    transform: translate(-50%, -50%) scale(1);
+
+    transition: transform 250ms var(--transition-timing-function);
+}
+
+.modal-close-btn {
+    position: absolute;
+    top: 7px;
+    right: 9px;
+
+    display: inline-flex;
+    width: 30px;
+    height: 30px;
+    padding: 9px;
+    border: 1px solid var(--close-border-color);
+    border-radius: 50%;
+
+    background-color: transparent;
+}
+
+.modal-close-btn:hover,
+.modal-close-btn:focus {
+    color: var(--hover-color);
+}
+
+.modal-icon-close {
+    fill: currentColor;
+
+    transition: color 250ms var(--transition-timing-function);
+}
+
+.modal-title {
+    margin-bottom: 12px;
+
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.15;
+    letter-spacing: 0.03em;
+}
+
+.modal-label-text {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.01em;
+    color: var(--secondary-text-color);
+}
+
+.modal-input-text {
+    border: 1px solid var(--input-border-color);
+    outline: none;
+    /* Без этого не видно смену цвета бордера, но благодаря как раз смене текста думаю в этом случае можно обойтись без outline */
+    border-radius: 4px;
+    padding: 12px 15px 12px 42px;
+    margin-top: 4px;
+    height: 40px;
+    box-sizing: border-box;
+
+    transition: border-color 250ms var(--transition-timing-function);
+}
+
+.modal-icon {
+    position: absolute;
+    top: 29px;
+    left: 12px;
+
+    transition: fill 250ms var(--transition-timing-function);
+}
+
+.modal-input-text:focus {
+    border-color: var(--hover-color);
+}
+
+.modal-input-text:focus+.modal-icon {
+    fill: var(--hover-color);
+}
+
+.modal-label-comment {
+    margin-bottom: 20px;
+}
+
+.modal-textarea {
+    padding: 12px 16px;
+    width: 448px;
+    height: 120px;
+    resize: none;
+
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.01em;
+    color: var(--textarea-text-color);
+}
+
+.policy-check-container {
+    margin-bottom: 30px;
+}
+
+.modal-label-policy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+}
+
+.modal-label-policy::before {
+    content: '';
+    display: inline-block;
+    width: 16px;
+    height: 15px;
+    margin-right: 8px;
+
+    background-image: url('../images/not-checked.svg');
+    background-size: contain;
+
+    transition: background-image 250ms var(--transition-timing-function);
+}
+
+/* Не было в макете, но состояние фокуса должно быть + active для того, чтобы черный цвет не было видно при клике мышкой на боксе */
+.modal-policy-check:focus+.modal-label-policy::before,
+.modal-policy-check:active+.modal-label-policy::before {
+    background-color: var(--secondary-text-color);
+
+    border-radius: 2px;
+}
+
+.modal-policy-check:checked+.modal-label-policy::before {
+    border: none;
+
+    background-image: url('../images/checked.svg');
+}
+
+.agreement-terms-link {
+    color: var(--hover-color);
+    text-decoration: underline;
+}
+
+.modal-sending-button-container {
+    text-align: center;
+}
+
+.modal-sending-button {
+    padding: 10px 55px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    width: 200px;
+    height: 50px;
+}
