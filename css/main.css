@@ -450,6 +450,7 @@
 .agreement-terms-link {
     color: var(--hover-color);
     text-decoration: underline;
+    padding-left: 3px;
 }
 
 .modal-sending-button-container {
